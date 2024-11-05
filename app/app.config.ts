@@ -10,7 +10,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'Subtxt with Muse - Documentation'
   },
   header: {
     logo: {
@@ -21,56 +21,55 @@ export default defineAppConfig({
     search: true,
     colorMode: true,
     links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
+      'icon': 'i-heroicons-pencil',
+      'to': 'https://subtxt.app',
       'target': '_blank',
-      'aria-label': 'Docs template on GitHub'
+      'aria-label': 'Subtxt with Muse'
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
+    credits: 'Copyright © 2017-2024',
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://nuxt.com',
+      'icon': 'i-heroicons-pencil',
+      'to': 'https://subtxt.app',
       'target': '_blank',
-      'aria-label': 'Nuxt Website'
+      'aria-label': 'Subtxt'
+    }, {
+      'icon': 'i-simple-icons-bluesky',
+      'to': 'https://bsky.app/profile/jimhull.blog',
+      'target': '_blank',
+      'aria-label': 'Bluesky'
     }, {
       'icon': 'i-simple-icons-discord',
-      'to': 'https://discord.com/invite/ps2h6QT',
+      'to': 'https://discord.com/invite/uHhpSYYa3G',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on Discord'
+      'aria-label': 'Subtxt on Discord'
     }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/nuxt_js',
+      'icon': 'i-heroicons-book-open',
+      'to': 'https://narrativefirst.com',
       'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'Narrative First'
     }]
   },
   toc: {
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-pro/docs/edit/main/content',
       links: [{
         icon: 'i-heroicons-star',
-        label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
+        label: 'Join Subtxt',
+        to: 'https://subtxt.app',
+        target: '_blank'
+      }, {
+        icon: 'i-simple-icons-discord',
+        label: 'Subtxt on Discord',
+        to: 'https://discord.com/invite/uHhpSYYa3G',
         target: '_blank'
       }, {
         icon: 'i-heroicons-book-open',
-        label: 'Nuxt UI Pro docs',
-        to: 'https://ui.nuxt.com/pro/guide',
-        target: '_blank'
-      }, {
-        icon: 'i-simple-icons-nuxtdotjs',
-        label: 'Purchase a license',
-        to: 'https://ui.nuxt.com/pro/purchase',
+        label: 'Narrative First',
+        to: 'https://narrativefirst.com',
         target: '_blank'
       }]
     }
