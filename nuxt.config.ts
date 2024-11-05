@@ -24,6 +24,8 @@ export default defineNuxtConfig({
   colorMode: {
     disableTransition: true
   },
+  
+  ssr: true,
 
   nitro: {
     prerender: {
