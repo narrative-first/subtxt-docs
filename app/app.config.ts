@@ -20,18 +20,18 @@ export default defineAppConfig({
     },
     search: true,
     colorMode: true,
-    links: [{
-      'icon': 'i-heroicons-pencil',
-      'to': 'https://subtxt.app',
-      'target': '_blank',
-      'aria-label': 'Subtxt with Muse'
-    }]
+    // links: [{
+    //   'icon': 'i-heroicons-pencil',
+    //   'to': 'https://subtxt.app',
+    //   'target': '_blank',
+    //   'aria-label': 'Subtxt with Muse'
+    // }]
   },
   footer: {
     credits: 'Copyright © 2017-2024',
     colorMode: false,
     links: [{
-      'icon': 'i-heroicons-pencil',
+      'icon': 'i-heroicons-star',
       'to': 'https://subtxt.app',
       'target': '_blank',
       'aria-label': 'Subtxt'
