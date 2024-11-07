@@ -28,6 +28,10 @@ const links = [{
   icon: 'i-mdi-exponent',
   to: '/advanced-concepts'
 }, {
+  label: 'API Reference',
+  icon: 'i-tabler-api',
+  to: '/api-reference'
+}, {
   label: 'Resources',
   icon: 'i-ri-archive-2-line',
   to: '/resources'
