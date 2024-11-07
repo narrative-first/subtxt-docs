@@ -25,8 +25,6 @@ export default defineNuxtConfig({
     disableTransition: true
   },
   
-  ssr: false,
-
   nitro: {
     preset: "netlify",
     prerender: {
