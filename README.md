@@ -32,8 +32,6 @@ Not sure how to start? No problem. Just reach out through the Issues tab, and we
 
 We’re here to help! If you have questions about Subtxt or ideas for making this guide even better, let us know.  
 
-For app-related support, visit [Subtxt Support](https://subtxt.app/support), where our team is happy to assist.
-
 ---
 
 ## License
