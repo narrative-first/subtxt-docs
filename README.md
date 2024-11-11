@@ -1,127 +1,45 @@
-![nuxt-ui-docs-social-card](https://github.com/nuxt-ui-pro/docs/assets/739984/f64e13d9-9ae0-4e03-bf7f-6be4c36cd9ba)
+# Subtxt Documentation (The Subtxt Guide)
 
-# Nuxt UI Pro - Docs template
+Welcome to the home of the **Subtxt Guide**, your go-to resource for mastering Subtxt! This repository holds everything you need to navigate, understand, and get the most out of the app. Whether you're here to learn more about story structure, clarify a tricky concept, or help improve the documentation, you're in the right place.
 
-[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
-[![Nuxt Studio](https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC)](https://nuxt.studio/themes/docs)
+---
 
-- [Live demo](https://docs-template.nuxt.dev/)
-- [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/docs)
-- [Documentation](https://ui.nuxt.com/pro/getting-started)
-- [Clone on Nuxt Studio](https://nuxt.studio/templates/docs)
+## What’s the Subtxt Guide?
 
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/docs)
+The **Subtxt Guide** is a comprehensive resource designed to help you use Subtxt to its fullest potential. It’s packed with:
 
-## Quick Start
+- Clear explanations of core concepts like Storyforms, Premise, and Thematic Exploration.
+- Practical tips for building dynamic and compelling stories.
+- Step-by-step instructions for navigating the app’s features.
+- Solutions to common issues, ensuring you spend more time writing and less time troubleshooting.
 
-```bash [Terminal]
-npx nuxi init -t github:nuxt-ui-pro/docs
-```
+Think of it as your friendly co-pilot in the world of storytelling!
 
-## Setup
+---
 
-Make sure to install the dependencies:
+## How You Can Help
 
-```bash
-# npm
-npm install
+This guide is a living document, and we’re always looking to make it better. If you notice something that could use an update, a correction, or a bit more clarity, we’d love your help! Here’s how you can contribute:
 
-# pnpm
-pnpm install
+- **Spot an Issue?** Open an issue right here in the repository to let us know.
+- **Have a Fix?** Feel free to submit a pull request with your updates. We’re all about collaboration, and every little improvement helps!
 
-# yarn
-yarn install
+Not sure how to start? No problem. Just reach out through the Issues tab, and we’ll guide you.
 
-# bun
-bun install
-```
+---
 
-## Development Server
+## Questions or Feedback?
 
-Start the development server on `http://localhost:3000`:
+We’re here to help! If you have questions about Subtxt or ideas for making this guide even better, let us know.  
 
-```bash
-# npm
-npm run dev
+For app-related support, visit [Subtxt Support](https://subtxt.app/support), where our team is happy to assist.
 
-# pnpm
-pnpm run dev
+---
 
-# yarn
-yarn dev
+## License
 
-# bun
-bun run dev
-```
+The Subtxt Guide is shared under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). That means you’re free to use, share, and adapt the content for non-commercial purposes—just make sure to give credit and keep it under the same license.  
 
-## Production
+---
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Nuxt Studio integration
-
-Add `@nuxthq/studio` dependency to your package.json:
-
-```bash
-# npm
-npm install --save-dev @nuxthq/studio
-
-# pnpm
-pnpm add -D @nuxthq/studio
-
-# yarn
-yarn add -D @nuxthq/studio
-
-# bun
-bun add -d @nuxthq/studio
-```
-
-Add this module to your `nuxt.config.ts`:
-
-```ts
-export default defineNuxtConfig({
-  ...
-  modules: [
-    ...
-    '@nuxthq/studio'
-  ]
-})
-```
-
-Read more on [Nuxt Studio docs](https://nuxt.studio/docs/get-started/setup).
-
-## Renovate integration
-
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+Thanks for stopping by, and happy storytelling!
