@@ -25,17 +25,25 @@ export default defineNuxtConfig({
     disableTransition: true
   },
   
-  target: 'static',
-  
+  // target: 'static',
+
   nitro: {
-    preset: "netlify",
     prerender: {
-      routes: [
-        '/'
-      ],
-      crawlLinks: true
-    }
+      crawlLinks: true,
+    },
   },
+
+  // ssr: true,
+  
+  // nitro: {
+  //   preset: "netlify",
+  //   prerender: {
+  //     routes: [
+  //       '/'
+  //     ],
+  //     crawlLinks: true
+  //   }
+  // },
 
   routeRules: {
     '/api/search.json': { prerender: true }
