@@ -37,7 +37,7 @@ export default defineAppConfig({
       'aria-label': 'Subtxt'
     }, {
       'icon': 'i-simple-icons-bluesky',
-      'to': 'https://bsky.app/profile/jimhull.blog',
+      'to': 'https://bsky.app/profile/subtxt.app',
       'target': '_blank',
       'aria-label': 'Bluesky'
     }, {
