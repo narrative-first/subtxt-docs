@@ -30,6 +30,10 @@ const links = [{
   icon: 'i-mdi-exponent',
   to: '/advanced-concepts'
 }, {
+  label: 'Narrative Agents',
+  icon: 'i-solar-hamburger-menu-outline',
+  to: '/narrative-agents'
+}, {
   label: 'API Reference',
   icon: 'i-tabler-api',
   to: '/api-reference'
