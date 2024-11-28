@@ -62,10 +62,10 @@ export default defineAppConfig({
         to: 'https://subtxt.app',
         target: '_blank'
       }, {
-        'icon': 'i-simple-icons-bluesky',
-        'to': 'https://bsky.app/profile/subtxt.app',
-        'target': '_blank',
-        'aria-label': 'Bluesky'
+        icon: 'i-simple-icons-bluesky',
+        label: 'Bluesky',
+        to: 'https://bsky.app/profile/subtxt.app',
+        target: '_blank'
       }, {
         icon: 'i-simple-icons-discord',
         label: 'Subtxt on Discord',
