@@ -12,13 +12,9 @@ export default defineNuxtConfig({
     'nuxt-og-image'
   ],
 
-  // content: {
-  //   documentDriven: true, // Enables document-driven mode
-  //   navigation: true, // Auto-generates navigation for `@nuxt/content`
-  //   highlight: {
-  //     theme: 'github-dark', // Add code highlighting (optional)
-  //   },
-  // },
+  icon: {
+    serverBundle: 'remote',
+  },
 
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
@@ -33,8 +29,6 @@ export default defineNuxtConfig({
     disableTransition: true
   },
   
-  // target: 'static',
-
   nitro: {
     prerender: {
       routes: [
@@ -43,18 +37,6 @@ export default defineNuxtConfig({
       crawlLinks: true
     }
   },
-
-  // ssr: true,
-  
-  // nitro: {
-  //   preset: "netlify",
-  //   prerender: {
-  //     routes: [
-  //       '/'
-  //     ],
-  //     crawlLinks: true
-  //   }
-  // },
 
   routeRules: {
     '/api/search.json': { prerender: true }
