@@ -58,7 +58,7 @@ export default defineAppConfig({
       title: 'Community',
       links: [{
         icon: 'i-heroicons-star',
-        label: 'Join Subtxt',
+        label: 'Get Subtxt',
         to: 'https://subtxt.app',
         target: '_blank'
       }, {
