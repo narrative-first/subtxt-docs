@@ -32,7 +32,8 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/'
+        '/',
+        '/getting-started'
       ],
       crawlLinks: true
     }
