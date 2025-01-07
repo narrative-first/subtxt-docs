@@ -28,7 +28,7 @@ export default defineAppConfig({
     // }]
   },
   footer: {
-    credits: 'Copyright © 2017-2024',
+    credits: 'Copyright © 2017-2025',
     colorMode: false,
     links: [{
       'icon': 'i-heroicons-star',
