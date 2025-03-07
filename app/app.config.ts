@@ -4,7 +4,7 @@ export default defineAppConfig({
     gray: 'cool',
     footer: {
       bottom: {
-        left: 'text-sm text-gray-500 dark:text-gray-400',
+        left: 'text-sm text-gray-500 dark:text-gray-400 text-center',
         wrapper: 'border-t border-gray-200 dark:border-gray-800'
       }
     }
@@ -28,7 +28,7 @@ export default defineAppConfig({
     // }]
   },
   footer: {
-    credits: 'Copyright © 2017-2025',
+    credits: 'Copyright © 2017-2025 Subtxt™ and Subtxt Muse™ are trademarks of Narrative First, Inc.™',
     colorMode: false,
     links: [{
       'icon': 'i-heroicons-star',
