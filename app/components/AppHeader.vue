@@ -30,9 +30,9 @@ const links = [{
   icon: 'i-mdi-exponent',
   to: '/advanced-concepts'
 }, {
-  label: 'Narrative Agents',
+  label: 'Narrative Tasks',
   icon: 'i-solar-hamburger-menu-outline',
-  to: '/narrative-agents'
+  to: '/narrative-tasks'
 }, {
   label: 'API Reference',
   icon: 'i-tabler-api',
@@ -53,7 +53,7 @@ const links = [{
         <UColorModeImage v-bind="{ class: 'h-6 w-auto', ...header?.logo }" />
       </template>
       <template v-else>
-        Subtxt with Muse <UBadge
+        Subtxt/Dramatica® <UBadge
           label="Docs"
           variant="subtle"
           class="mb-0.5"

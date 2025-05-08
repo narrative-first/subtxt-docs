@@ -28,9 +28,9 @@ const links = [{
   icon: 'i-mdi-exponent',
   to: '/advanced-concepts'
 },  {
-  label: 'Narrative Agents',
+  label: 'Narrative Tasks',
   icon: 'i-solar-hamburger-menu-outline',
-  to: '/narrative-agents'
+  to: '/narrative-tasks'
 },{
   label: 'API Reference',
   icon: 'i-tabler-api',
