@@ -6,7 +6,7 @@ hero:
   description: 'Create your documentation in seconds with this template!'
   orientation: horizontal
   headline:
-    label: 'Get Subtxt/Dramatica'
+    label: 'Get Subtxt'
     to: https://subtxt.app
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:

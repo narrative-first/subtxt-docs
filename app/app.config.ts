@@ -28,7 +28,7 @@ export default defineAppConfig({
     // }]
   },
   footer: {
-    credits: 'Copyright © 2017-2025 Subtxt™ and Subtxt Muse™ are trademarks of Narrative First, Inc.™ Dramatica® is a registered trademark of Write Bros, Inc.®',
+    credits: 'Copyright © 2017-2025 Subtxt™ and Subtxt Muse™ are trademarks of Narrative First, Inc.™ Dramatica® is a registered trademark of Write Brothers, Inc.®',
     colorMode: false,
     links: [{
       'icon': 'i-heroicons-star',
@@ -58,7 +58,7 @@ export default defineAppConfig({
       title: 'Community',
       links: [{
         icon: 'i-heroicons-star',
-        label: 'Get Subtxt/Dramatica',
+        label: 'Get Subtxt',
         to: 'https://subtxt.app',
         target: '_blank'
       }, {
