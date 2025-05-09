@@ -34,7 +34,7 @@ export default defineAppConfig({
       'icon': 'i-heroicons-star',
       'to': 'https://subtxt.app',
       'target': '_blank',
-      'aria-label': 'Subtxt'
+      'aria-label': 'Subtxt/Dramatica'
     }, {
       'icon': 'i-simple-icons-bluesky',
       'to': 'https://bsky.app/profile/subtxt.app',
@@ -44,7 +44,7 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-discord',
       'to': 'https://discord.com/invite/uHhpSYYa3G',
       'target': '_blank',
-      'aria-label': 'Subtxt on Discord'
+      'aria-label': 'Subtxt/Dramatica on Discord'
     }, {
       'icon': 'i-heroicons-book-open',
       'to': 'https://narrativefirst.com',
@@ -58,7 +58,7 @@ export default defineAppConfig({
       title: 'Community',
       links: [{
         icon: 'i-heroicons-star',
-        label: 'Get Subtxt',
+        label: 'Get Subtxt/Dramatica',
         to: 'https://subtxt.app',
         target: '_blank'
       }, {
